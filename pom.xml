@@ -9,7 +9,7 @@
     </parent>
 
     <groupId>com.aliyun.openservices</groupId>
-    <artifactId>aliyun-log-producer</artifactId>
+    <artifactId>aliyun-log-producer-chlde</artifactId>
     <version>0.3.2-SNAPSHOT</version>
 
     <name>Aliyun LOG Java Producer</name>
