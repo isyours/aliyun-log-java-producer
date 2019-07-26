@@ -1,8 +1,9 @@
 package com.aliyun.openservices.aliyun.log.producer.internals;
 
+import com.aliyun.openservices.aliyun.log.producer.internals.hash.HashUtils;
 import com.aliyun.openservices.log.util.NetworkUtils;
 import com.google.common.base.Charsets;
-import com.google.common.hash.Hashing;
+
 import java.lang.management.ManagementFactory;
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -28,7 +29,7 @@ public abstract class Utils {
     }
     String name = ManagementFactory.getRuntimeMXBean().getName();
     String input = ip + "-" + name + "-" + instanceId;
-    return Hashing.farmHashFingerprint64().hashString(input, Charsets.US_ASCII).toString();
+    return HashUtils.INSTENCE.hashString(input, Charsets.US_ASCII).toString();
   }
 
   public static String generatePackageId(String producerHash, AtomicLong batchId) {

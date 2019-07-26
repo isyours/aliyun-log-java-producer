@@ -11,7 +11,6 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.Delayed;
 import java.util.concurrent.TimeUnit;
-import javax.annotation.Nonnull;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -193,12 +192,12 @@ public class ProducerBatch implements Delayed {
   }
 
   @Override
-  public long getDelay(@Nonnull TimeUnit unit) {
+  public long getDelay(TimeUnit unit) {
     return unit.convert(nextRetryMs - System.currentTimeMillis(), TimeUnit.MILLISECONDS);
   }
 
   @Override
-  public int compareTo(@Nonnull Delayed o) {
+  public int compareTo(Delayed o) {
     return (int) (nextRetryMs - ((ProducerBatch) o).getNextRetryMs());
   }
 
