@@ -8,8 +8,8 @@
         <version>9</version>
     </parent>
 
-    <groupId>com.aliyun.openservices</groupId>
-    <artifactId>aliyun-log-producer-chlde</artifactId>
+    <groupId>io.github.isyours</groupId>
+    <artifactId>aliyun-log-java-producer</artifactId>
     <version>0.3.2-SNAPSHOT</version>
 
     <name>Aliyun LOG Java Producer</name>
@@ -24,8 +24,8 @@
         </license>
     </licenses>
     <scm>
-        <url>https://github.com/aliyun/aliyun-log-producer</url>
-        <connection>scm:git:https://github.com/aliyun/aliyun-log-producer.git</connection>
+        <url>https://github.com/isyours/aliyun-log-java-producer</url>
+        <connection>scm:git:https://github.com/isyours/aliyun-log-java-producer.git</connection>
         <developerConnection>scm:git:https://github.com/aliyun/aliyun-log-producer.git</developerConnection>
     </scm>
     <developers>
