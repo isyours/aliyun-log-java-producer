@@ -1,7 +1,7 @@
 package com.aliyun.aksls.chlde.log.producer.internals;
 
-import com.aliyun.openservices.log.common.LogContent;
-import com.aliyun.openservices.log.common.LogItem;
+import com.aliyun.aksls.chlde.log.common.LogContent;
+import com.aliyun.aksls.chlde.log.common.LogItem;
 import java.util.List;
 
 public abstract class LogSizeCalculator {

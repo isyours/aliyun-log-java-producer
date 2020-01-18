@@ -6,7 +6,7 @@ import com.aliyun.aksls.chlde.log.producer.errors.MaxBatchCountExceedException;
 import com.aliyun.aksls.chlde.log.producer.errors.ProducerException;
 import com.aliyun.aksls.chlde.log.producer.errors.ResultFailedException;
 import com.aliyun.aksls.chlde.log.producer.errors.TimeoutException;
-import com.aliyun.openservices.log.common.LogItem;
+import com.aliyun.aksls.chlde.log.common.LogItem;
 import com.google.common.math.LongMath;
 import com.google.common.util.concurrent.ListenableFuture;
 import java.util.ArrayList;

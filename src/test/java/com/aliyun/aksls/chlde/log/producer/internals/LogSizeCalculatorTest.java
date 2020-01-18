@@ -1,7 +1,7 @@
 package com.aliyun.aksls.chlde.log.producer.internals;
 
 import com.aliyun.aksls.chlde.log.producer.ProducerTest;
-import com.aliyun.openservices.log.common.LogItem;
+import com.aliyun.aksls.chlde.log.common.LogItem;
 import org.junit.Assert;
 import org.junit.Test;
 

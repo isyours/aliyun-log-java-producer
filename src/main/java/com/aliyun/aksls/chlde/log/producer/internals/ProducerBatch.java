@@ -5,7 +5,7 @@ import com.aliyun.aksls.chlde.log.producer.Attempt;
 import com.aliyun.aksls.chlde.log.producer.Callback;
 import com.aliyun.aksls.chlde.log.producer.ProducerConfig;
 import com.aliyun.aksls.chlde.log.producer.Result;
-import com.aliyun.openservices.log.common.LogItem;
+import com.aliyun.aksls.chlde.log.common.LogItem;
 import com.google.common.collect.EvictingQueue;
 import com.google.common.collect.Iterables;
 import com.google.common.util.concurrent.ListenableFuture;

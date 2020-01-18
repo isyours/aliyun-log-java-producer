@@ -1,7 +1,7 @@
 package com.aliyun.aksls.chlde.log.producer.internals;
 
 import com.aliyun.aksls.chlde.log.producer.internals.hash.HashUtils;
-import com.aliyun.openservices.log.util.NetworkUtils;
+import com.aliyun.aksls.chlde.log.util.NetworkUtils;
 import com.google.common.base.Charsets;
 
 import java.lang.management.ManagementFactory;

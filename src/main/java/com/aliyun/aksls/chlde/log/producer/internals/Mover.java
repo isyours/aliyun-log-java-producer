@@ -1,7 +1,7 @@
 package com.aliyun.aksls.chlde.log.producer.internals;
 
 import com.aliyun.aksls.chlde.log.producer.ProducerConfig;
-import com.aliyun.openservices.log.Client;
+import com.aliyun.aksls.chlde.log.Client;
 import java.util.List;
 import java.util.Map;
 import java.util.concurrent.BlockingQueue;
