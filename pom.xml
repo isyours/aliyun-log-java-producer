@@ -10,7 +10,7 @@
 
     <groupId>io.github.isyours</groupId>
     <artifactId>aliyun-log-java-producer-ak</artifactId>
-    <version>0.3.2.5</version>
+    <version>0.3.2.6</version>
 
     <name>Aliyun LOG Java Producer</name>
     <url>https://aliyun.com/product/sls</url>
